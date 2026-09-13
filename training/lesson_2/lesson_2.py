@@ -1,3 +1,5 @@
+import math
+
 # 1) Работа со списками
 employee_list = ["John Snow", "Piter Pen",
                  "Drakula", "IvanIV", "Moana", "Juilet"]
@@ -16,9 +18,6 @@ print(f"Делится ли на три {num}? - {result}")
 
 
 # 3) Округление
-import math
-
-
 def min_boxes(items):
     return math.ceil(items / 5)
 
